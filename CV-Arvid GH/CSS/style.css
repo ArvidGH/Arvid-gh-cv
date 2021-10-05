@@ -1,0 +1,78 @@
+body {
+    background-color: lightgray;
+}
+h1 {
+    color: rgb(194, 9, 9);
+    text-align: center;
+    font-family: serif;
+}
+a {
+    color: rgb(194, 9, 9);
+    text-decoration: none;
+}
+button {
+    background-color: rgb(194, 9, 9);
+    border: 2px solid rgb(194, 9, 9);
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0, 4s;
+    box-shadow: 0 9px black;
+    outline: none;
+}
+button:hover {
+    background-color: rgb(194, 9, 9);
+}
+.button:active {
+    background-color: rgb(194, 9, 9);
+    box-shadow: 0 5px rgb(194, 9, 9);
+    transform: translateY(4px);
+}
+h4 {
+    color: #000000;
+    position: absolute;
+    bottom: 0;
+    left: 7x;
+}
+h2 {
+    text-align: center;
+    margin-top: 75px;
+}
+li {
+    font-size: 20px;
+}
+p {
+    margin-left: 20px;
+    font-size: 25px;
+}
+.padelrack-png {
+    margin: 0px;
+    position: absolute;
+    margin-left: 825px;
+    width: 25%;
+}
+.derbisendaxtreme-bild {
+    margin: 168px;
+    margin-left: 825px;
+    position: absolute;
+    width: 25%;
+}
+.bild-på-mig {
+    position: absolute;
+    width: 35%;
+    margin-left: 800px;
+    height: 95%;
+}
+.bild-på-mig-skolavslutning {
+    position: absolute;
+    margin-left: 400px;
+    z-index: -1;
+    width: 35%;
+    margin-top: -20px;
+}
+#sometext {
+    position: absolute;
+    z-index: 1;
+}
